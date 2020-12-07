@@ -565,3 +565,95 @@ action_pair_2_2 [5.4812794 6.063114 ] [-2.291931 -2.486175] 0.121384144 0.0
 [INFO 22:48:34] my_main Updated target network
 [INFO 22:48:53] my_main Updated target network
 [INFO 22:49:12] my_main Updated target network
+[INFO 22:49:31] my_main Recent Stats | t_env:      20000 | Episode:    20000
+action_pair_0_0:           8.0075	action_pair_0_1:         -11.8849	action_pair_0_2:         -11.8729	action_pair_1_0:         -11.8748
+action_pair_1_1:           0.0808	action_pair_1_2:           0.0658	action_pair_2_0:         -11.8850	action_pair_2_1:           0.0938
+action_pair_2_2:           0.0742	battle_won_mean:           0.0000	ep_length_mean:            1.0000	epsilon:                   1.0000
+grad_norm:                 8.1554	hit_prob:                  0.3812	loss:                      0.0268	q_taken_mean:             -2.3116
+return_mean:              -4.3088	return_std:                7.0732	target_mean:              -2.2750	td_error_abs:              0.1350
+test_battle_won_mean:      0.0000	test_ep_length_mean:       1.0000	test_return_mean:          8.0000	test_return_std:           0.0000
+
+[INFO 22:49:31] my_main Updated target network
+[INFO 22:49:31] my_main t_env: 20001 / 210000
+[INFO 22:49:31] my_main Estimated time left: 5 hours, 2 minutes, 59 seconds. Time passed: 31 minutes, 51 seconds
+action_pair_0_0 [0. 0.] [3.1432383 3.5295382] 7.9967294 8.0
+action_pair_0_1 [0.        6.3292017] [ 3.1432383 -2.7996635] -12.270418 -12.0
+action_pair_0_2 [0.       6.103913] [ 3.1432383 -2.5743747] -12.157809 -12.0
+action_pair_1_0 [5.66794 0.     ] [-2.5247016  3.5295382] -12.168011 -12.0
+action_pair_1_1 [5.66794   6.3292017] [-2.5247016 -2.7996635] -0.13922024 0.0
+action_pair_1_2 [5.66794  6.103913] [-2.5247016 -2.5743747] -0.094135284 0.0
+action_pair_2_0 [5.5153513 0.       ] [-2.3721132  3.5295382] -12.125357 -12.0
+action_pair_2_1 [5.5153513 6.3292017] [-2.3721132 -2.7996635] -0.111795425 0.0
+action_pair_2_2 [5.5153513 6.103913 ] [-2.3721132 -2.5743747] -0.07159519 0.0
+[INFO 22:49:50] my_main Updated target network
+[INFO 22:50:09] my_main Updated target network
+[INFO 22:50:29] my_main Updated target network
+[INFO 22:50:48] my_main Updated target network
+[INFO 22:51:08] my_main Recent Stats | t_env:      21000 | Episode:    21000
+action_pair_0_0:           8.0199	action_pair_0_1:         -11.9403	action_pair_0_2:         -11.9020	action_pair_1_0:         -11.9522
+action_pair_1_1:           0.0473	action_pair_1_2:           0.0448	action_pair_2_0:         -11.9577	action_pair_2_1:           0.0555
+action_pair_2_2:           0.0518	battle_won_mean:           0.0000	ep_length_mean:            1.0000	epsilon:                   1.0000
+grad_norm:                 8.7076	hit_prob:                  0.3781	loss:                      0.0275	q_taken_mean:             -2.4551
+return_mean:              -4.2904	return_std:                7.0783	target_mean:              -2.4375	td_error_abs:              0.1391
+test_battle_won_mean:      0.0000	test_ep_length_mean:       1.0000	test_return_mean:          8.0000	test_return_std:           0.0000
+
+[INFO 22:51:08] my_main Updated target network
+[INFO 22:51:08] my_main t_env: 21001 / 210000
+[INFO 22:51:08] my_main Estimated time left: 5 hours, 5 minutes, 48 seconds. Time passed: 33 minutes, 28 seconds
+action_pair_0_0 [0. 0.] [3.1198375 3.5040095] 7.9815683 8.0
+action_pair_0_1 [0.        6.3406315] [ 3.1198375 -2.836622 ] -11.790852 -12.0
+action_pair_0_2 [0.        6.1536326] [ 3.1198375 -2.6496232] -11.7727585 -12.0
+action_pair_1_0 [5.6738935 0.       ] [-2.554056   3.5040095] -11.859491 -12.0
+action_pair_1_1 [5.6738935 6.3406315] [-2.554056 -2.836622] 0.12660551 0.0
+action_pair_1_2 [5.6738935 6.1536326] [-2.554056  -2.6496232] 0.11895847 0.0
+action_pair_2_0 [5.561135 0.      ] [-2.4412973  3.5040095] -11.891259 -12.0
+action_pair_2_1 [5.561135  6.3406315] [-2.4412973 -2.836622 ] 0.09776211 0.0
+action_pair_2_2 [5.561135  6.1536326] [-2.4412973 -2.6496232] 0.10206413 0.0
+[INFO 22:51:29] my_main Updated target network
+[INFO 22:51:48] my_main Updated target network
+[INFO 22:52:08] my_main Updated target network
+[INFO 22:52:29] my_main Updated target network
+[INFO 22:52:48] my_main Recent Stats | t_env:      22000 | Episode:    22000
+action_pair_0_0:           8.0032	action_pair_0_1:         -11.9485	action_pair_0_2:         -11.9060	action_pair_1_0:         -11.9507
+action_pair_1_1:           0.0453	action_pair_1_2:           0.0449	action_pair_2_0:         -11.9510	action_pair_2_1:           0.0493
+action_pair_2_2:           0.0516	battle_won_mean:           0.0000	ep_length_mean:            1.0000	epsilon:                   1.0000
+grad_norm:                 8.6380	hit_prob:                  0.3625	loss:                      0.0267	q_taken_mean:             -2.3675
+return_mean:              -4.4088	return_std:                7.0876	target_mean:              -2.3500	td_error_abs:              0.1369
+test_battle_won_mean:      0.0000	test_ep_length_mean:       1.0000	test_return_mean:          8.0000	test_return_std:           0.0000
+
+[INFO 22:52:48] my_main Updated target network
+[INFO 22:52:48] my_main t_env: 22001 / 210000
+[INFO 22:52:48] my_main Estimated time left: 5 hours, 11 minutes, 9 seconds. Time passed: 35 minutes, 7 seconds
+action_pair_0_0 [0. 0.] [3.0939136 3.4720235] 7.964043 8.0
+action_pair_0_1 [0.       6.366561] [ 3.0939136 -2.8945372] -11.746295 -12.0
+action_pair_0_2 [0.       6.195836] [ 3.0939136 -2.7238123] -11.7372875 -12.0
+action_pair_1_0 [5.6984043 0.       ] [-2.6044905  3.4720235] -11.895451 -12.0
+action_pair_1_1 [5.6984043 6.366561 ] [-2.6044905 -2.8945372] 0.13434267 0.0
+action_pair_1_2 [5.6984043 6.195836 ] [-2.6044905 -2.7238123] 0.14490318 0.0
+action_pair_2_0 [5.604741 0.      ] [-2.5108275  3.4720235] -11.903643 -12.0
+action_pair_2_1 [5.604741 6.366561] [-2.5108275 -2.8945372] 0.12289238 0.0
+action_pair_2_2 [5.604741 6.195836] [-2.5108275 -2.7238123] 0.12458038 0.0
+[INFO 22:53:08] my_main Updated target network
+[INFO 22:53:27] my_main Updated target network
+[INFO 22:53:47] my_main Updated target network
+[INFO 22:54:06] my_main Updated target network
+[INFO 22:54:26] my_main Recent Stats | t_env:      23000 | Episode:    23000
+action_pair_0_0:           7.9965	action_pair_0_1:         -11.8508	action_pair_0_2:         -11.8000	action_pair_1_0:         -11.9295
+action_pair_1_1:           0.0809	action_pair_1_2:           0.0866	action_pair_2_0:         -11.9290	action_pair_2_1:           0.0858
+action_pair_2_2:           0.0909	battle_won_mean:           0.0000	ep_length_mean:            1.0000	epsilon:                   1.0000
+grad_norm:                 8.5328	hit_prob:                  0.3469	loss:                      0.0246	q_taken_mean:             -2.0038
+return_mean:              -4.3880	return_std:                7.1117	target_mean:              -1.9625	td_error_abs:              0.1388
+test_battle_won_mean:      0.0000	test_ep_length_mean:       1.0000	test_return_mean:          8.0000	test_return_std:           0.0000
+
+[INFO 22:54:26] my_main Updated target network
+[INFO 22:54:26] my_main t_env: 23001 / 210000
+[INFO 22:54:26] my_main Estimated time left: 5 hours, 5 minutes, 38 seconds. Time passed: 36 minutes, 45 seconds
+action_pair_0_0 [0. 0.] [3.0889268 3.4616327] 8.05713 8.0
+action_pair_0_1 [0.      6.42582] [ 3.0889268 -2.9641871] -11.876575 -12.0
+action_pair_0_2 [0.       6.269437] [ 3.0889268 -2.8078043] -11.885832 -12.0
+action_pair_1_0 [5.7573824 0.       ] [-2.6684558  3.4616327] -12.076379 -12.0
+action_pair_1_1 [5.7573824 6.42582  ] [-2.6684558 -2.9641871] 0.14643097 0.0
+action_pair_1_2 [5.7573824 6.269437 ] [-2.6684558 -2.8078043] 0.14711285 0.0
+action_pair_2_0 [5.6797514 0.       ] [-2.5908244  3.4616327] -12.067625 -12.0
+action_pair_2_1 [5.6797514 6.42582  ] [-2.5908244 -2.9641871] 0.1190567 0.0
+action_pair_2_2 [5.6797514 6.269437 ] [-2.5908244 -2.8078043] 0.12790108 0.0
