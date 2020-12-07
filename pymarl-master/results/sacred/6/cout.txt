@@ -516,3 +516,52 @@ action_pair_2_2 [5.3621883 5.9365845] [-2.143344  -2.3248296] -0.071762085 0.0
 [INFO 22:45:02] my_main Updated target network
 [INFO 22:45:21] my_main Updated target network
 [INFO 22:45:40] my_main Updated target network
+[INFO 22:46:01] my_main Updated target network
+[INFO 22:46:20] my_main Recent Stats | t_env:      18000 | Episode:    18000
+action_pair_0_0:           7.9921	action_pair_0_1:         -11.9453	action_pair_0_2:         -11.9246	action_pair_1_0:         -11.9559
+action_pair_1_1:           0.0337	action_pair_1_2:           0.0286	action_pair_2_0:         -11.9458	action_pair_2_1:           0.0444
+action_pair_2_2:           0.0335	battle_won_mean:           0.0000	ep_length_mean:            1.0000	epsilon:                   1.0000
+grad_norm:                 6.6782	hit_prob:                  0.3625	loss:                      0.0210	q_taken_mean:             -2.4629
+return_mean:              -4.3744	return_std:                7.1505	target_mean:              -2.4500	td_error_abs:              0.1110
+test_battle_won_mean:      0.0000	test_ep_length_mean:       1.0000	test_return_mean:          8.0000	test_return_std:           0.0000
+
+[INFO 22:46:20] my_main Updated target network
+[INFO 22:46:20] my_main t_env: 18001 / 210000
+[INFO 22:46:20] my_main Estimated time left: 5 hours, 12 minutes, 50 seconds. Time passed: 28 minutes, 39 seconds
+action_pair_0_0 [0. 0.] [3.195297 3.58918 ] 7.979705 8.0
+action_pair_0_1 [0.        6.2364197] [ 3.195297 -2.64724 ] -11.802274 -12.0
+action_pair_0_2 [0.        5.9803658] [ 3.195297  -2.3911858] -11.766854 -12.0
+action_pair_1_0 [5.589283 0.      ] [-2.393986  3.58918 ] -11.724749 -12.0
+action_pair_1_1 [5.589283  6.2364197] [-2.393986 -2.64724 ] 0.1442914 0.0
+action_pair_1_2 [5.589283  5.9803658] [-2.393986  -2.3911858] 0.1610632 0.0
+action_pair_2_0 [5.3988657 0.       ] [-2.2035685  3.58918  ] -11.75651 -12.0
+action_pair_2_1 [5.3988657 6.2364197] [-2.2035685 -2.64724  ] 0.18377256 0.0
+action_pair_2_2 [5.3988657 5.9803658] [-2.2035685 -2.3911858] 0.17810154 0.0
+[INFO 22:46:39] my_main Updated target network
+[INFO 22:46:58] my_main Updated target network
+[INFO 22:47:17] my_main Updated target network
+[INFO 22:47:37] my_main Updated target network
+[INFO 22:47:56] my_main Recent Stats | t_env:      19000 | Episode:    19000
+action_pair_0_0:           8.0003	action_pair_0_1:         -11.8861	action_pair_0_2:         -11.8637	action_pair_1_0:         -11.8763
+action_pair_1_1:           0.0778	action_pair_1_2:           0.0771	action_pair_2_0:         -11.8808	action_pair_2_1:           0.0937
+action_pair_2_2:           0.0842	battle_won_mean:           0.0000	ep_length_mean:            1.0000	epsilon:                   1.0000
+grad_norm:                 7.8071	hit_prob:                  0.3594	loss:                      0.0258	q_taken_mean:             -2.4468
+return_mean:              -4.3960	return_std:                7.1013	target_mean:              -2.4125	td_error_abs:              0.1283
+test_battle_won_mean:      0.0000	test_ep_length_mean:       1.0000	test_return_mean:          8.0000	test_return_std:           0.0000
+
+[INFO 22:47:56] my_main Updated target network
+[INFO 22:47:56] my_main t_env: 19001 / 210000
+[INFO 22:47:56] my_main Estimated time left: 5 hours, 5 minutes, 40 seconds. Time passed: 30 minutes, 15 seconds
+action_pair_0_0 [0. 0.] [3.1893487 3.5769389] 8.060321 8.0
+action_pair_0_1 [0.        6.2980127] [ 3.1893487 -2.721074 ] -11.644141 -12.0
+action_pair_0_2 [0.       6.063114] [ 3.1893487 -2.486175 ] -11.565522 -12.0
+action_pair_1_0 [5.650696 0.      ] [-2.4613473  3.5769389] -12.000015 -12.0
+action_pair_1_1 [5.650696  6.2980127] [-2.4613473 -2.721074 ] 0.13864183 0.0
+action_pair_1_2 [5.650696 6.063114] [-2.4613473 -2.486175 ] 0.10239124 0.0
+action_pair_2_0 [5.4812794 0.       ] [-2.291931   3.5769389] -11.968419 -12.0
+action_pair_2_1 [5.4812794 6.2980127] [-2.291931 -2.721074] 0.13621378 0.0
+action_pair_2_2 [5.4812794 6.063114 ] [-2.291931 -2.486175] 0.121384144 0.0
+[INFO 22:48:15] my_main Updated target network
+[INFO 22:48:34] my_main Updated target network
+[INFO 22:48:53] my_main Updated target network
+[INFO 22:49:12] my_main Updated target network
