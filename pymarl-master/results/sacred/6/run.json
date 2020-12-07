@@ -1,0 +1,81 @@
+{
+  "artifacts": [],
+  "command": "my_main",
+  "experiment": {
+    "base_dir": "D:\\study\\code\\multi_agent\\QPLEX-master\\pymarl-master\\src",
+    "dependencies": [
+      "munch==2.5.0",
+      "numpy==1.18.4",
+      "sacred==0.8.1",
+      "torch==1.5.0"
+    ],
+    "mainfile": "main.py",
+    "name": "pymarl",
+    "repositories": [],
+    "sources": [
+      [
+        "main.py",
+        "_sources\\main_63d7d00072f4e5be0310acb11aa60581.py"
+      ],
+      [
+        "run.py",
+        "_sources\\run_c4d27ba13d885eabc7f30a964e3a05b3.py"
+      ],
+      [
+        "utils\\logging.py",
+        "_sources\\logging_aa14e56e60b01dd7a9ddb8e6cdf36b85.py"
+      ]
+    ]
+  },
+  "heartbeat": "2020-12-07T14:28:05.576353",
+  "host": {
+    "ENV": {},
+    "cpu": "Unknown",
+    "hostname": "LAPTOP-Lenovo",
+    "os": [
+      "Windows",
+      "Windows-10-10.0.18362-SP0"
+    ],
+    "python_version": "3.6.10"
+  },
+  "meta": {
+    "command": "my_main",
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [
+        "local_results_path='../../../tmp_DD/sc2_bane_vs_bane/results/'",
+        "save_model=True",
+        "use_tensorboard=True",
+        "save_model_interval=200000",
+        "t_max=210000",
+        "epsilon_finish=1.0",
+        "use_cuda=False"
+      ],
+      "help": false,
+      "with": true
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2020-12-07T14:17:36.659911",
+  "status": "RUNNING"
+}

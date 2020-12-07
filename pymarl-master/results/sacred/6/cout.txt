@@ -1,0 +1,253 @@
+pydev debugger: process 9964 is connecting
+
+[INFO 22:17:36] pymarl Running command 'my_main'
+[INFO 22:17:36] pymarl Started run with ID "6"
+[DEBUG 22:17:36] pymarl Starting Heartbeat
+[DEBUG 22:17:36] my_main Started
+[INFO 22:17:36] my_main Experiment Parameters:
+[INFO 22:17:36] my_main 
+
+{   'action_selector': 'epsilon_greedy',
+    'adv_hypernet_embed': 64,
+    'adv_hypernet_layers': 3,
+    'agent': 'rnn',
+    'agent_output_type': 'q',
+    'batch_size': 32,
+    'batch_size_run': 1,
+    'buffer_cpu_only': True,
+    'buffer_size': 5000,
+    'burn_in_period': 32,
+    'checkpoint_path': '',
+    'critic_lr': 0.0005,
+    'demo_interval': 1000,
+    'double_q': True,
+    'env': 'matrix_game_2',
+    'env_args': {   'episode_limit': 1,
+                    'is_print': False,
+                    'n_actions': 3,
+                    'n_agents': 2,
+                    'obs_last_action': False,
+                    'print_rew': False,
+                    'print_steps': 1000,
+                    'seed': 414452977,
+                    'state_last_action': False},
+    'epsilon_anneal_time': 50000,
+    'epsilon_finish': 1.0,
+    'epsilon_start': 1.0,
+    'evaluate': False,
+    'gamma': 0.99,
+    'grad_norm_clip': 10,
+    'hypernet_embed': 64,
+    'is_adv_attention': True,
+    'is_batch_rl': False,
+    'is_from_start': True,
+    'is_minus_one': True,
+    'is_save_buffer': False,
+    'is_stop_gradient': True,
+    'label': 'default_label',
+    'learner': 'dmaq_qatten_learner',
+    'learner_log_interval': 1000,
+    'load_buffer_id': 0,
+    'load_step': 0,
+    'local_results_path': '../../../tmp_DD/sc2_bane_vs_bane/results/',
+    'log_interval': 1000,
+    'lr': 0.0005,
+    'mac': 'basic_mac',
+    'mixer': 'dmaq',
+    'mixing_embed_dim': 32,
+    'name': 'qplex',
+    'num_circle': 1,
+    'num_kernel': 10,
+    'obs_agent_id': True,
+    'obs_last_action': True,
+    'optim_alpha': 0.99,
+    'optim_eps': 1e-05,
+    'repeat_id': 1,
+    'rnn_hidden_dim': 64,
+    'runner': 'episode',
+    'runner_log_interval': 1000,
+    'save_buffer_id': 0,
+    'save_buffer_interval': 1000,
+    'save_buffer_size': 10000,
+    'save_model': True,
+    'save_model_interval': 200000,
+    'save_replay': False,
+    'seed': 414452977,
+    't_max': 210000,
+    'target_update_interval': 200,
+    'test_greedy': True,
+    'test_interval': 1000,
+    'test_nepisode': 30,
+    'use_cuda': False,
+    'use_tensorboard': True,
+    'weighted_head': True}
+
+2020-12-07 22:17:36.784283: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cudart64_101.dll'; dlerror: cudart64_101.dll not found
+2020-12-07 22:17:36.784592: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+[INFO 22:17:40] my_main Beginning training for 210000 timesteps
+D:\study\code\multi_agent\QPLEX-master\pymarl-master\src\components\episode_buffer.py:104: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  v = th.tensor(v, dtype=dtype, device=self.device)
+[INFO 22:18:00] my_main t_env: 1 / 210000
+[INFO 22:18:00] my_main Estimated time left: 1 hours, 9 minutes, 30 seconds. Time passed: 19 seconds
+[INFO 22:18:05] my_main Saving models to ../../../tmp_DD/sc2_bane_vs_bane/results/models\qplex__2020-12-07_22-17-36\1
+C:\Users\puyuan\Anaconda3\envs\venv-py3.6\lib\site-packages\torch\nn\functional.py:1569: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+action_pair_0_0 [0. 0.] [-0.00753432  0.01572963] -0.43722734 8.0
+action_pair_0_1 [0.         0.04064917] [-0.00753432 -0.02491954] -0.43832403 -12.0
+action_pair_0_2 [0.         0.18826723] [-0.00753432 -0.1725376 ] -0.44237936 -12.0
+action_pair_1_0 [0.03345916 0.        ] [-0.04099347  0.01572963] -0.43850303 -12.0
+action_pair_1_1 [0.03345916 0.04064917] [-0.04099347 -0.02491954] -0.43959734 0.0
+action_pair_1_2 [0.03345916 0.18826723] [-0.04099347 -0.1725376 ] -0.44363225 0.0
+action_pair_2_0 [0.22697642 0.        ] [-0.23451073  0.01572963] -0.44583195 -12.0
+action_pair_2_1 [0.22697642 0.04064917] [-0.23451073 -0.02491954] -0.44690055 0.0
+action_pair_2_2 [0.22697642 0.18826723] [-0.23451073 -0.1725376 ] -0.45099238 0.0
+C:\Users\puyuan\Anaconda3\envs\venv-py3.6\lib\site-packages\torch\storage.py:34: FutureWarning: pickle support for Storage will be removed in 1.5. Use `torch.save` instead
+  warnings.warn("pickle support for Storage will be removed in 1.5. Use `torch.save` instead", FutureWarning)
+C:\Users\puyuan\Anaconda3\envs\venv-py3.6\lib\site-packages\jsonpickle\ext\numpy.py:292: UserWarning: ndarray is defined by reference to an object we do not know how to serialize. A deep copy is serialized instead, breaking memory aliasing.
+  warnings.warn(msg)
+[INFO 22:18:20] my_main Updated target network
+[INFO 22:18:38] my_main Updated target network
+[INFO 22:18:56] my_main Updated target network
+[INFO 22:19:14] my_main Updated target network
+[INFO 22:19:32] my_main Recent Stats | t_env:       1000 | Episode:     1000
+action_pair_0_0:          -0.4372	action_pair_0_1:          -0.4383	action_pair_0_2:          -0.4424	action_pair_1_0:          -0.4385
+action_pair_1_1:          -0.4396	action_pair_1_2:          -0.4436	action_pair_2_0:          -0.4458	action_pair_2_1:          -0.4469
+action_pair_2_2:          -0.4510	battle_won_mean:           0.0000	ep_length_mean:            1.0000	epsilon:                   1.0000
+grad_norm:                28.3711	hit_prob:                  0.2969	loss:                     62.1446	q_taken_mean:             -0.1481
+return_mean:             -12.0000	return_std:                0.0000	target_mean:              -2.0625	td_error_abs:              5.6806
+test_battle_won_mean:      0.0000	test_ep_length_mean:       1.0000	test_return_mean:          8.0000	test_return_std:           0.0000
+
+[INFO 22:19:32] my_main Updated target network
+[INFO 22:19:32] my_main t_env: 1001 / 210000
+[INFO 22:19:32] my_main Estimated time left: 5 hours, 21 minutes, 29 seconds. Time passed: 1 minutes, 52 seconds
+action_pair_0_0 [0. 0.] [3.619328  3.4014697] 8.015792 8.0
+action_pair_0_1 [0.        4.7803807] [ 3.619328 -1.378911] -11.993802 -12.0
+action_pair_0_2 [0.        4.2840357] [ 3.619328  -0.8825658] -11.993327 -12.0
+action_pair_1_0 [5.1516356 0.       ] [-1.5323076  3.4014697] -11.302713 -12.0
+action_pair_1_1 [5.1516356 4.7803807] [-1.5323076 -1.378911 ] 0.07734513 0.0
+action_pair_1_2 [5.1516356 4.2840357] [-1.5323076 -0.8825658] 0.07450473 0.0
+action_pair_2_0 [4.552725 0.      ] [-0.93339664  3.4014697 ] -11.183622 -12.0
+action_pair_2_1 [4.552725  4.7803807] [-0.93339664 -1.378911  ] 0.07568002 0.0
+action_pair_2_2 [4.552725  4.2840357] [-0.93339664 -0.8825658 ] 0.07995671 0.0
+[INFO 22:19:51] my_main Updated target network
+[INFO 22:20:09] my_main Updated target network
+[INFO 22:20:28] my_main Updated target network
+[INFO 22:20:46] my_main Updated target network
+[INFO 22:21:04] my_main Recent Stats | t_env:       2000 | Episode:     2000
+action_pair_0_0:           3.7893	action_pair_0_1:          -6.2161	action_pair_0_2:          -6.2179	action_pair_1_0:          -5.8706
+action_pair_1_1:          -0.1811	action_pair_1_2:          -0.1846	action_pair_2_0:          -5.8147	action_pair_2_1:          -0.1856
+action_pair_2_2:          -0.1855	battle_won_mean:           0.0000	ep_length_mean:            1.0000	epsilon:                   1.0000
+grad_norm:                27.5417	hit_prob:                  0.3438	loss:                     31.2022	q_taken_mean:             -1.7425
+return_mean:              -8.2920	return_std:                3.6137	target_mean:              -2.6250	td_error_abs:              2.9942
+test_battle_won_mean:      0.0000	test_ep_length_mean:       1.0000	test_return_mean:          8.0000	test_return_std:           0.0000
+
+[INFO 22:21:04] my_main Updated target network
+[INFO 22:21:04] my_main t_env: 2001 / 210000
+[INFO 22:21:04] my_main Estimated time left: 5 hours, 18 minutes, 25 seconds. Time passed: 3 minutes, 24 seconds
+action_pair_0_0 [0. 0.] [3.652186 3.426984] 8.079464 8.0
+action_pair_0_1 [0.        4.9471054] [ 3.652186  -1.5201213] -11.148802 -12.0
+action_pair_0_2 [0.        4.4263883] [ 3.652186  -0.9994043] -11.339993 -12.0
+action_pair_1_0 [5.34252 0.     ] [-1.6903343  3.426984 ] -11.803862 -12.0
+action_pair_1_1 [5.34252   4.9471054] [-1.6903343 -1.5201213] 0.24839616 0.0
+action_pair_1_2 [5.34252   4.4263883] [-1.6903343 -0.9994043] 0.20330226 0.0
+action_pair_2_0 [4.705266 0.      ] [-1.0530801  3.426984 ] -11.818205 -12.0
+action_pair_2_1 [4.705266  4.9471054] [-1.0530801 -1.5201213] 0.20411134 0.0
+action_pair_2_2 [4.705266  4.4263883] [-1.0530801 -0.9994043] 0.18445629 0.0
+[INFO 22:21:23] my_main Updated target network
+[INFO 22:21:41] my_main Updated target network
+[INFO 22:22:00] my_main Updated target network
+[INFO 22:22:18] my_main Updated target network
+[INFO 22:22:36] my_main Recent Stats | t_env:       3000 | Episode:     3000
+action_pair_0_0:           5.2193	action_pair_0_1:          -7.8603	action_pair_0_2:          -7.9252	action_pair_1_0:          -7.8484
+action_pair_1_1:          -0.0380	action_pair_1_2:          -0.0553	action_pair_2_0:          -7.8159	action_pair_2_1:          -0.0557
+action_pair_2_2:          -0.0622	battle_won_mean:           0.0000	ep_length_mean:            1.0000	epsilon:                   1.0000
+grad_norm:                23.1748	hit_prob:                  0.3542	loss:                     20.8335	q_taken_mean:             -1.8671
+return_mean:              -7.0880	return_std:                4.8021	target_mean:              -2.4167	td_error_abs:              2.0738
+test_battle_won_mean:      0.0000	test_ep_length_mean:       1.0000	test_return_mean:          8.0000	test_return_std:           0.0000
+
+[INFO 22:22:36] my_main Updated target network
+[INFO 22:22:36] my_main t_env: 3001 / 210000
+[INFO 22:22:36] my_main Estimated time left: 5 hours, 17 minutes, 0 seconds. Time passed: 4 minutes, 55 seconds
+action_pair_0_0 [0. 0.] [3.5973642 3.4412677] 7.9786077 8.0
+action_pair_0_1 [0.       5.085512] [ 3.5973642 -1.6442442] -12.109269 -12.0
+action_pair_0_2 [0.       4.503406] [ 3.5973642 -1.0621384] -12.1606865 -12.0
+action_pair_1_0 [5.3930798 0.       ] [-1.7957156  3.4412677] -11.572029 -12.0
+action_pair_1_1 [5.3930798 5.085512 ] [-1.7957156 -1.6442442] 0.052896738 0.0
+action_pair_1_2 [5.3930798 4.503406 ] [-1.7957156 -1.0621384] 0.053479195 0.0
+action_pair_2_0 [4.682003 0.      ] [-1.0846386  3.4412677] -11.611848 -12.0
+action_pair_2_1 [4.682003 5.085512] [-1.0846386 -1.6442442] 0.08005118 0.0
+action_pair_2_2 [4.682003 4.503406] [-1.0846386 -1.0621384] 0.07482827 0.0
+[INFO 22:22:55] my_main Updated target network
+[INFO 22:23:13] my_main Updated target network
+[INFO 22:23:31] my_main Updated target network
+[INFO 22:23:49] my_main Updated target network
+[INFO 22:24:08] my_main Recent Stats | t_env:       4000 | Episode:     4000
+action_pair_0_0:           5.9092	action_pair_0_1:          -8.9225	action_pair_0_2:          -8.9841	action_pair_1_0:          -8.7793
+action_pair_1_1:          -0.0152	action_pair_1_2:          -0.0281	action_pair_2_0:          -8.7649	action_pair_2_1:          -0.0218
+action_pair_2_2:          -0.0279	battle_won_mean:           0.0000	ep_length_mean:            1.0000	epsilon:                   1.0000
+grad_norm:                23.1384	hit_prob:                  0.3672	loss:                     15.6668	q_taken_mean:             -2.2717
+return_mean:              -6.4680	return_std:                5.3761	target_mean:              -2.6562	td_error_abs:              1.6304
+test_battle_won_mean:      0.0000	test_ep_length_mean:       1.0000	test_return_mean:          8.0000	test_return_std:           0.0000
+
+[INFO 22:24:08] my_main Updated target network
+[INFO 22:24:08] my_main t_env: 4001 / 210000
+[INFO 22:24:08] my_main Estimated time left: 5 hours, 16 minutes, 51 seconds. Time passed: 6 minutes, 28 seconds
+action_pair_0_0 [0. 0.] [3.589623  3.5135443] 8.05089 8.0
+action_pair_0_1 [0.       5.261558] [ 3.589623  -1.7480136] -12.085877 -12.0
+action_pair_0_2 [0.        4.6391115] [ 3.589623 -1.125567] -12.021498 -12.0
+action_pair_1_0 [5.452007 0.      ] [-1.8623837  3.5135443] -11.504142 -12.0
+action_pair_1_1 [5.452007 5.261558] [-1.8623837 -1.7480136] 0.056043863 0.0
+action_pair_1_2 [5.452007  4.6391115] [-1.8623837 -1.125567 ] 0.08512545 0.0
+action_pair_2_0 [4.711796 0.      ] [-1.1221728  3.5135443] -11.278568 -12.0
+action_pair_2_1 [4.711796 5.261558] [-1.1221728 -1.7480136] 0.08648491 0.0
+action_pair_2_2 [4.711796  4.6391115] [-1.1221728 -1.125567 ] 0.111469865 0.0
+[INFO 22:24:27] my_main Updated target network
+[INFO 22:24:46] my_main Updated target network
+[INFO 22:25:05] my_main Updated target network
+[INFO 22:25:23] my_main Updated target network
+[INFO 22:25:41] my_main Recent Stats | t_env:       5000 | Episode:     5000
+action_pair_0_0:           6.3375	action_pair_0_1:          -9.5552	action_pair_0_2:          -9.5916	action_pair_1_0:          -9.3243
+action_pair_1_1:          -0.0010	action_pair_1_2:          -0.0054	action_pair_2_0:          -9.2676	action_pair_2_1:          -0.0001
+action_pair_2_2:          -0.0001	battle_won_mean:           0.0000	ep_length_mean:            1.0000	epsilon:                   1.0000
+grad_norm:                20.5270	hit_prob:                  0.3688	loss:                     12.5431	q_taken_mean:             -2.4308
+return_mean:              -6.1232	return_std:                5.7345	target_mean:              -2.7250	td_error_abs:              1.3339
+test_battle_won_mean:      0.0000	test_ep_length_mean:       1.0000	test_return_mean:          8.0000	test_return_std:           0.0000
+
+[INFO 22:25:41] my_main Updated target network
+[INFO 22:25:41] my_main t_env: 5001 / 210000
+[INFO 22:25:41] my_main Estimated time left: 5 hours, 15 minutes, 40 seconds. Time passed: 8 minutes, 0 seconds
+action_pair_0_0 [0. 0.] [3.5585597 3.5442035] 8.017059 8.0
+action_pair_0_1 [0.        5.3485165] [ 3.5585597 -1.8043131] -11.443569 -12.0
+action_pair_0_2 [0.        4.7337394] [ 3.5585597 -1.1895357] -11.425262 -12.0
+action_pair_1_0 [5.4458747 0.       ] [-1.8873152  3.5442035] -12.030111 -12.0
+action_pair_1_1 [5.4458747 5.3485165] [-1.8873152 -1.8043131] 0.14353871 0.0
+action_pair_1_2 [5.4458747 4.7337394] [-1.8873152 -1.1895357] 0.16122699 0.0
+action_pair_2_0 [4.7258043 0.       ] [-1.1672446  3.5442035] -11.994136 -12.0
+action_pair_2_1 [4.7258043 5.3485165] [-1.1672446 -1.8043131] 0.14893353 0.0
+action_pair_2_2 [4.7258043 4.7337394] [-1.1672446 -1.1895357] 0.14441633 0.0
+[INFO 22:26:00] my_main Updated target network
+[INFO 22:26:18] my_main Updated target network
+[INFO 22:26:36] my_main Updated target network
+[INFO 22:26:55] my_main Updated target network
+[INFO 22:27:13] my_main Recent Stats | t_env:       6000 | Episode:     6000
+action_pair_0_0:           8.0284	action_pair_0_1:         -11.7563	action_pair_0_2:         -11.7882	action_pair_1_0:         -11.6426
+action_pair_1_1:           0.1156	action_pair_1_2:           0.1155	action_pair_2_0:         -11.5773	action_pair_2_1:           0.1191
+action_pair_2_2:           0.1190	battle_won_mean:           0.0000	ep_length_mean:            1.0000	epsilon:                   1.0000
+grad_norm:                17.4374	hit_prob:                  0.3812	loss:                      0.1252	q_taken_mean:             -2.7849
+return_mean:              -4.5656	return_std:                7.1499	target_mean:              -2.6750	td_error_abs:              0.2403
+test_battle_won_mean:      0.0000	test_ep_length_mean:       1.0000	test_return_mean:          8.0000	test_return_std:           0.0000
+
+[INFO 22:27:13] my_main Updated target network
+[INFO 22:27:13] my_main t_env: 6001 / 210000
+[INFO 22:27:13] my_main Estimated time left: 5 hours, 13 minutes, 47 seconds. Time passed: 9 minutes, 32 seconds
+action_pair_0_0 [0. 0.] [3.48884   3.5624433] 7.904726 8.0
+action_pair_0_1 [0.        5.4440374] [ 3.48884   -1.8815942] -12.4605875 -12.0
+action_pair_0_2 [0.      4.84428] [ 3.48884   -1.2818364] -12.652496 -12.0
+action_pair_1_0 [5.4120684 0.       ] [-1.9232284  3.5624433] -11.996239 -12.0
+action_pair_1_1 [5.4120684 5.4440374] [-1.9232284 -1.8815942] -0.18950033 0.0
+action_pair_1_2 [5.4120684 4.84428  ] [-1.9232284 -1.2818364] -0.18896484 0.0
+action_pair_2_0 [4.7199006 0.       ] [-1.2310604  3.5624433] -12.041158 -12.0
+action_pair_2_1 [4.7199006 5.4440374] [-1.2310604 -1.8815942] -0.1672566 0.0
+action_pair_2_2 [4.7199006 4.84428  ] [-1.2310604 -1.2818364] -0.1686604 0.0
+[INFO 22:27:31] my_main Updated target network
+[INFO 22:27:50] my_main Updated target network
